@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+password_sql.txt
+username_sql.txt
+
 
 # Distribution / packaging
 .Python
