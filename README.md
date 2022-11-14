@@ -63,6 +63,34 @@
 ### The relationship between GDP/per capita and different diseases with Pearson and spearman :
 SPEARMAN
 
+![Correlations1 gdppc](https://user-images.githubusercontent.com/114666478/201727993-3fd184b9-8cdc-44bd-844f-b7758dcc38e9.png)
+
+PEARSON
+![Correlations gdppc](https://user-images.githubusercontent.com/114666478/201728074-4b620cee-0abf-4106-b1f5-80866df451ba.png)
+
+### The relationship between GDP and different diseases with spearman :
+![Correlations1 gdp](https://user-images.githubusercontent.com/114666478/201728208-c71e2e44-8a4f-4e56-8b38-9484b927f1f8.png)
+
+### The relationship between the year and different diseases with spearman :
+
+![Correlations1 year](https://user-images.githubusercontent.com/114666478/201728325-66b0b58c-910c-4702-8b92-0baddabb2f92.png)
+
+### The relationship between GDP/per capita and Alzheimer :
+![Relation Alzheimer GDP percap](https://user-images.githubusercontent.com/114666478/201728441-36a697bb-4018-4b2f-ab0d-4598b577298b.png)
+
+### The relationship between GDP/per capita and Meningitis :
+![Meningitis GDP percap](https://user-images.githubusercontent.com/114666478/201728513-c5aea8ab-0e00-46ad-bf45-b1d66329796d.png)
+### The distribution of per capita values of Meningitis:
+![meningitis](https://user-images.githubusercontent.com/114666478/201728857-ce45ccad-256c-418a-aaf3-578e778ede3e.png)
+### The full correlations of all columns with each other by Pearson and Spearman correlations:
+SPEARMAN
+![Full Correlations1](https://user-images.githubusercontent.com/114666478/201729029-7da5bd3e-ef89-4b42-be12-d919331623d6.png)
+
+Pearson
+![Full Correlations](https://user-images.githubusercontent.com/114666478/201729068-6a5dc447-805d-465b-b6e6-2fbcedb361b1.png)
+
+
+
 
 
 
