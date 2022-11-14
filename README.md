@@ -54,10 +54,10 @@
 #### We again normalize all column names and merge it into our previous finished data frame of data_int, now we have all data sorted and normalized, we again drop nulls that could originate from an unequal number of countries in both data frames.
 #### We create a gdp/percap column containing all gdp per capita calculations for each country in each year
 
-##Load
+## Load
 #### We load all necessary data frames to SQL, due to the transformation already having been done no further work is needed on SQL
 
-##Insights
+## Insights
 #### We set up three correlation tables (Pearson, spearman, and Kendall) and apply them to create relationships between the factors that are interesting
 
 ### The relationship between GDP/per capita and different diseases with Pearson and spearman :
