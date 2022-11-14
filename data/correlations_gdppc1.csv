@@ -1,0 +1,37 @@
+,gdp/percap
+per_capita-Neonatal Disorders,-0.834838234359637
+per_capita-Meningitis,-0.805336964159059
+per_capita-Maternal Disorders,-0.7943166319166292
+per_capita-Tuberculosis,-0.7842743992569904
+per_capita-Acute Hepatitis,-0.7148882798689846
+per_capita-Malaria,-0.698792187979514
+per_capita-Diarrheal Diseases,-0.6808143706139979
+per_capita-Poisonings,-0.6425587309142365
+per_capita-Nutritional Deficiencies,-0.6236517220117765
+per_capita-Protein-Energy Malnutrition,-0.6068616834486092
+per_capita-Drowning,-0.5028184762966508
+per_capita-Lower Respiratory Infections,-0.49576536465323784
+per_capita-HIV/AIDS,-0.4636838831756663
+"per_capita-Fire, Heat, and Hot Substances",-0.4573701272978241
+per_capita-Conflict and Terrorism,-0.3930611844262304
+per_capita-Interpersonal Violence,-0.3807462396958145
+per_capita-Road Injuries,-0.34008747741210005
+per_capita-Cirrhosis and Other Chronic Liver Diseases,-0.2673722123837
+per_capita-Environmental Heat and Cold Exposure,-0.2575229097569938
+population,-0.1903673937623107
+per_capita-Exposure to Forces of Nature,-0.1739591544900615
+per_capita-Digestive Diseases,-0.04023519728364108
+per_capita-Diabetes Mellitus,0.1539757464717691
+per_capita-Chronic Respiratory Diseases,0.18833360065096016
+rank,0.20101500749459694
+year,0.215366919070614
+per_capita-Self-harm,0.2325670652466143
+per_capita-Alcohol Use Disorders,0.2589793984362179
+per_capita-Chronic Kidney Disease,0.2735441864997565
+per_capita-Cardiovascular Diseases,0.3788969474695697
+per_capita-Drug Use Disorders,0.4922789892965541
+gdp,0.49509200128230124
+per_capita-Neoplasms,0.6601819511347493
+per_capita-Parkinson's Disease,0.6745154188299274
+per_capita-Alzheimer's Disease and Other Dementias,0.6895885858402254
+gdp/percap,1.0
