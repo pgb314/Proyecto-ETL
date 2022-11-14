@@ -41,6 +41,31 @@
 
 ## Transformation
 
+### Cleaning by sources:
+#### No Cleaning is necessary for the first CSV source from Kaggle
+#### After the first scrapping, we have a list of 60 data frames, we join the data frames by year.  We also remove the commas from the population numbers and convert the datatypes to integers. We save all the separate data frames and create a new common data frame sorted by country name, all_sort. We modify an error in the database and switch 2018 by 2019 in the second appearance
+#### We now merge the first two tables by normalizing the point at which they are going to be joined. This will create null values due to the number of countries in each dataset being different. we name this new data frame data_int
+#### We create a null value column in this new data frame and remove all rows with more than 3 nulls (thus removing all inconsistent countries)
+#### A per capita column is created for each disease column, with the value in each row of the total incidence divided by the value in each row of the population, thus creating a per capita frequency, we will only be using this further on as it is the only relevant metric.
+#### Now we are transforming the economic numbers, we first remove the nulls either by adding additional information from the internet or removing outright when not relevant(south Sudan) Any economic data we cannot get we also fill with the economic year of the previous years.
+#### We now create a differentiated data frame that contains the columns: country, year, and economy so that we can normalize it with the other data frames and get a data frame with the same shape. We do that by creating a list of dictionaries.
+#### For the second economic dataset we have to do the same processes with an additional step of renaming columns due to data scrapping issues
+#### We now concatenate both economic datasets into a single combined data frame of all economic data by country by year from 2000-2019
+#### We again normalize all column names and merge it into our previous finished data frame of data_int, now we have all data sorted and normalized, we again drop nulls that could originate from an unequal number of countries in both data frames.
+#### We create a gdp/percap column containing all gdp per capita calculations for each country in each year
+
+##Load
+#### We load all necessary data frames to SQL, due to the transformation already having been done no further work is needed on SQL
+
+##Insights
+#### We set up three correlation tables (Pearson, spearman, and Kendall) and apply them to create relationships between the factors that are interesting
+
+### The relationship between GDP/per capita and different diseases with Pearson and spearman :
+SPEARMAN
+
+
+
+
 
 
 
