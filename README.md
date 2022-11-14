@@ -23,7 +23,7 @@
 #### http://www.geoba.se/population.php?pc=world&type=28&year=1990&st=country&asde=&page=3
 #### Scrapping will be necessary, 60 different links with 400 datapoints per link
 #### First attempt with selenium and parallelization is too slow. Changing methods to only parallelized beautifulsoup is possible due to the url being consistent and no selenium is used for iterating objects. 
-####Full scrapping and saving to a Data frame takes 45 minutes.
+#### Full scrapping and saving to a Data frame takes 45 minutes.
 
 ### Third Source:
 #### https://en.wikipedia.org/wiki/List_of_countries_by_past_and_projected_GDP_(nominal)
