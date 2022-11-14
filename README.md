@@ -4,7 +4,7 @@
 ## Theme of the Project:
 #### Exploration of the relationship and correlations between different diseases and both the countries gdp as well as its gdp per capita.
 ## Needs of the Project:
-#### Database with total frequency of each illness per country per year as well as population numbers per country per year and economic indicators.
+#### Database with total/relative frequency of each illness in all countries as well as population numbers per country per year and economic indicators if available.
 
 ## Steps:
 ### Extract (3 sources and 2 methods)
@@ -22,8 +22,8 @@
 ### Second Source:
 #### http://www.geoba.se/population.php?pc=world&type=28&year=1990&st=country&asde=&page=3
 #### Scrapping will be necessary, 60 different links with 400 datapoints per link
-#### First attempt with selenium and parallelization is too slow, change methods to only parallelized beautifulsoup possible due to the url being consistent
-#### Optimized code to increase speed as much as possible, full extraction takes 45 minutes.
+#### First attempt with selenium and parallelization is too slow. Changing methods to only parallelized beautifulsoup is possible due to the url being consistent and no selenium is used for iterating objects. 
+####Full scrapping and saving to a Data frame takes 45 minutes.
 
 ### Third Source:
 #### https://en.wikipedia.org/wiki/List_of_countries_by_past_and_projected_GDP_(nominal)
