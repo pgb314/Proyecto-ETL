@@ -101,6 +101,9 @@ SPEARMAN
 Pearson
 ![Full Correlations](https://user-images.githubusercontent.com/114666478/201729068-6a5dc447-805d-465b-b6e6-2fbcedb361b1.png)
 
+### Insights
+#### Clearly certain diseases that come with old age as well as diseases that come with the consumption of substances are strongly correlated with both total and relative wealth, On the flipside diseases that are correlated with malnutrition and a lack of a healthcare system are strongly correlated with gdp per capita. Spearman correlation analysis shows higher correlations to the diseases.
+
 
 
 
